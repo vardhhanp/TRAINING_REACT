@@ -45,18 +45,13 @@
 
 
 import React from "react"
-import PropsChildrenEx from "./propsexample/PropsChildrenEx"
-import SubChildProp from "./propsexample/SubChildProp"
+// import PropsChildrenEx from "./propsexample/PropsChildrenEx"
+// import SubChildProp from "./propsexample/SubChildProp"
+import CBCStateEx from "./stateexample/CBCStateEx"
 const App=()=>{
-  return(
-    <div>
-      <PropsChildrenEx username="vardhan" company="Meta">
-        <h1>This data is passing as a prop children to child component </h1>
-        <SubChildProp/>
-        
-      </PropsChildrenEx>
-    </div>
-  )
+  
 
 }
 export default App
+
+
