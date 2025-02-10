@@ -1,57 +1,42 @@
-// // import React from "react";
-// // function App(){
-// // // let x = React.createElement("div" , {className:"App"} ,
-// // // React.createElement("h1" ,null, "Welcome to React")
+// // import CBCStateEx from './propexample/CBCStateEx';
+// // const App=()=> {
 
-// //   let username = "Sathvik";
-// //   return(
-// // // <div className="App">
-// // //<h1>Welcome to React</h1>
-// // //<img />
-// // // </div>
-// // // x
-// //     <div>
-// //       <h1>ExcleR</h1>
-// //       <p>para</p>
-// //       {username}
-// //       {100*100}
-// //     </div>
-// //   );
-// // }
-// import React, {Component} from "react";
-// import CBCPropExample1 from "./propsexample/CBCPropExample1";
-// export default class App extends Component{
-//   render(){
-//     return(
-//       <div>
-//         App
-//         <CBCPropExample1
-//         username="vardhan"
-//         age={20}
-//         hobbies={["playing", "eating","sleeping"]}
-//         address={{city:"HYD", area:"MYSDA"}}
-//         isMarried={false}
-//         sendFun={function(){alert("Hi vardhan")}}
-//         />
-//       </div>
-//     )
-//   }
-// }
+// import { resolveSchema } from "ajv/dist/compile";
 
-
-
-
-
-
-
-import React from "react"
-// import PropsChildrenEx from "./propsexample/PropsChildrenEx"
-// import SubChildProp from "./propsexample/SubChildProp"
-import CBCStateEx from "./stateexample/CBCStateEx"
-const App=()=>{
   
+// //     return (
+// //       <div>
+// //         <CBCStateEx/>
+// //       </div>
+      
+// //     )
+// //   }
 
+// // export default App;
+// import React from 'react';
+// import { useEffect } from "react";
+
+// const App = () => {
+//   return (
+//     <div>
+      
+//     </div>
+//   );
+// };
+
+// export default App;
+
+import React from 'react';
+
+import UseEffect from './hookexample/UseEffect';
+
+const App = () => {
+  return (
+    <div>
+      
+      <UseEffect />
+    </div>
+  );
 }
 export default App
-
 
