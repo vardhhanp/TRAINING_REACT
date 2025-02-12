@@ -1,0 +1,33 @@
+#navBlock{
+    width: 10px;
+    height: 00px;
+    box-shadow: 0px 0px 10px 0px #a7a7a7;
+
+}
+#navBlock > article{
+    width: 85%;
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logoBlock>img{
+    width: 140px;
+
+}
+.menuBlock>ul{
+    list-style-type: none;
+    display: flex;
+}
+.menuBlock>ul>li>a{
+    text-decoration:none;
+    margin-left:30px ;
+    color: #444244;
+    font-size: 10px;
+
+}
+.menuBlock>ul>li>a:hover{
+    color:dodgerblue;
+}
